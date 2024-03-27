@@ -62,6 +62,11 @@ Hacl_Hash_Blake2b_update_last(
 
 void Hacl_Hash_Blake2b_finish(uint32_t nn, uint8_t *output, uint64_t *hash);
 
+Hacl_Hash_Blake2s_blake2_params
+*FStar_Pervasives_Native_fst___Hacl_Impl_Blake2_Core_blake2_params____(
+  Hacl_Hash_Blake2s_blake2_params *x
+);
+
 #if defined(__cplusplus)
 }
 #endif
